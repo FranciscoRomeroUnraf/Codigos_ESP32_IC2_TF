@@ -1,0 +1,544 @@
+[
+    {
+        "id": "a2a71fe5d0a973c6",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "08069e5cd1830a18",
+        "type": "group",
+        "z": "a2a71fe5d0a973c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6d4d96635a10a4ec"
+        ],
+        "x": 794,
+        "y": 179,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "4b390db3dca60fee",
+        "type": "group",
+        "z": "a2a71fe5d0a973c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "045e801b47757b10"
+        ],
+        "x": 148,
+        "y": 433,
+        "w": 264,
+        "h": 134
+    },
+    {
+        "id": "045e801b47757b10",
+        "type": "group",
+        "z": "a2a71fe5d0a973c6",
+        "g": "4b390db3dca60fee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c381b80042fc7774"
+        ],
+        "x": 174,
+        "y": 459,
+        "w": 212,
+        "h": 82
+    },
+    {
+        "id": "13747c06e79b3ada",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.239",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e3b680b804d2f21d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "c31e9b9644b202d0",
+        "type": "ui_tab",
+        "name": "Daschboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2da1461e1dca41cf",
+        "type": "ui_group",
+        "name": "Sensores",
+        "tab": "c31e9b9644b202d0",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c50cd8090246c42b",
+        "type": "ui_group",
+        "name": "Actuadores",
+        "tab": "c31e9b9644b202d0",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "92c043fb6187f2e0",
+        "type": "sqlitedb",
+        "db": "D:\\Piscina_db\\piscina.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "0971d28ad8137137",
+        "type": "mqtt in",
+        "z": "a2a71fe5d0a973c6",
+        "name": "",
+        "topic": "piscina/datos",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "13747c06e79b3ada",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "507e965d325e4c60",
+                "dd4e5c61678eb72a"
+            ]
+        ]
+    },
+    {
+        "id": "507e965d325e4c60",
+        "type": "json",
+        "z": "a2a71fe5d0a973c6",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "c6cf8f30fcbb6a25",
+                "58a13da2c9888bb8",
+                "4f0d986f2d9c5181"
+            ]
+        ]
+    },
+    {
+        "id": "6d4d96635a10a4ec",
+        "type": "ui_gauge",
+        "z": "a2a71fe5d0a973c6",
+        "g": "08069e5cd1830a18",
+        "name": "",
+        "group": "2da1461e1dca41cf",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 890,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "bba5142671a52dba",
+        "type": "ui_gauge",
+        "z": "a2a71fe5d0a973c6",
+        "name": "",
+        "group": "2da1461e1dca41cf",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Nivel de Agua",
+        "label": "cm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c6cf8f30fcbb6a25",
+        "type": "function",
+        "z": "a2a71fe5d0a973c6",
+        "name": "Tomar_datos_temperatura",
+        "func": "msg.payload = msg.payload.temperatura;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 200,
+        "wires": [
+            [
+                "6d4d96635a10a4ec"
+            ]
+        ]
+    },
+    {
+        "id": "58a13da2c9888bb8",
+        "type": "function",
+        "z": "a2a71fe5d0a973c6",
+        "name": "Tomar_datos_nivel",
+        "func": "msg.payload = msg.payload.nivel_agua_cm;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 260,
+        "wires": [
+            [
+                "bba5142671a52dba"
+            ]
+        ]
+    },
+    {
+        "id": "c381b80042fc7774",
+        "type": "ui_button",
+        "z": "a2a71fe5d0a973c6",
+        "g": "045e801b47757b10",
+        "name": "",
+        "group": "c50cd8090246c42b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Boton Bomba",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Encendido",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 500,
+        "wires": [
+            [
+                "781395d00b58757e"
+            ]
+        ]
+    },
+    {
+        "id": "781395d00b58757e",
+        "type": "mqtt out",
+        "z": "a2a71fe5d0a973c6",
+        "name": "Accionar Bomba",
+        "topic": "piscina/control/bomba",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "13747c06e79b3ada",
+        "x": 500,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "dd4e5c61678eb72a",
+        "type": "function",
+        "z": "a2a71fe5d0a973c6",
+        "name": "Auto-Apagado",
+        "func": "if (msg.payload.nivel_agua_cm <= 10) {\n    msg.payload = \"Apagado\";\n    return msg;\n} else {\n    return null; // No hace nada si aún no se llegó al nivel\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 380,
+        "wires": [
+            [
+                "781395d00b58757e"
+            ]
+        ]
+    },
+    {
+        "id": "e117357007070064",
+        "type": "ui_text",
+        "z": "a2a71fe5d0a973c6",
+        "group": "c50cd8090246c42b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 500,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "bbcc349b16432c43",
+        "type": "mqtt in",
+        "z": "a2a71fe5d0a973c6",
+        "name": "",
+        "topic": "piscina/control/bomba",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "13747c06e79b3ada",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 620,
+        "wires": [
+            [
+                "e117357007070064"
+            ]
+        ]
+    },
+    {
+        "id": "4f0d986f2d9c5181",
+        "type": "function",
+        "z": "a2a71fe5d0a973c6",
+        "name": "function 2",
+        "func": "let temp = msg.payload.temperatura;\nlet nivel = msg.payload.nivel_agua_cm;\n\nmsg.topic = \"INSERT INTO registros(fecha, temperatura, nivel_agua) \" +\n    \"VALUES(datetime('now', 'localtime'), \" + temp + \", \" + nivel + \");\";\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "sqlite-node",
+                "debug-node"
+            ]
+        ]
+    },
+    {
+        "id": "sqlite-node",
+        "type": "sqlite",
+        "z": "a2a71fe5d0a973c6",
+        "mydb": "92c043fb6187f2e0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQLite Piscina",
+        "x": 880,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "debug-node",
+        "type": "debug",
+        "z": "a2a71fe5d0a973c6",
+        "name": "Debug SQLite",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1040,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9020636f83fc3b8e",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-node-sqlite": "1.1.0"
+        }
+    }
+]
